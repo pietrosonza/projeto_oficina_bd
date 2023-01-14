@@ -1,6 +1,3 @@
-
-
-
 -- Criando tabela Cliente
 create table cliente(
 	idCliente int auto_increment primary key,
