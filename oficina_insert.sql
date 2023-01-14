@@ -1,8 +1,3 @@
-use oficina;
-
-show tables;
-desc ordem_servico;
-
 -- inserindo clientes
 insert into cliente (pNome, fNome, cpf, endereco, contato)
 	values
@@ -87,6 +82,6 @@ insert into servicos_os(idOs, idServico)
 insert into produtos_os(idOs, idProduto, quantidade)
 	values
 	(5,1,1),
-    (5,2,2),
-    (5,3,4),
-    (5,4,1);
+	(5,2,2),
+	(5,3,4),
+	(5,4,1);
